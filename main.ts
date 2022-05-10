@@ -6,13 +6,13 @@ basic.pause(100)
 for (let index = 0; index < 4; index++) {
     writingrobot.moveXYZ(x_offset, y_offset, 0)
     basic.pause(200)
-    writingrobot.moveXYZ(100, 100, -32)
+    writingrobot.moveXYZ(100, 100, -42)
     basic.pause(200)
-    writingrobot.moveXYZ(180, 100, -32)
+    writingrobot.moveXYZ(180, 100, -42)
     basic.pause(200)
-    writingrobot.moveXYZ(140, 180, -32)
+    writingrobot.moveXYZ(140, 180, -42)
     basic.pause(200)
-    writingrobot.moveXYZ(100, 100, -32)
+    writingrobot.moveXYZ(100, 100, -42)
     basic.showIcon(IconNames.Heart)
 }
 // 归位
